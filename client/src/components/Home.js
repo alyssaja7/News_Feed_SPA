@@ -66,11 +66,11 @@ class Home extends Component {
         let api;
         if (guardian) {
             //api = 'http://ec2-54-174-22-8.compute-1.amazonaws.com:4000/search?api-key=c05384c5-6def-48bd-8d98-ad6b7c9e9caa&section=(sport|business|technology|politics)&show-blocks=all';
-            api = 'http://localhost:4000/search';
+            api = 'http://localhost:4000/search?api-key=c05384c5-6def-48bd-8d98-ad6b7c9e9caa&section=(sport|business|technology|politics)&show-blocks=all';
 
         } else {
             //api = 'http://ec2-54-174-22-8.compute-1.amazonaws.com:4000/home.json?api-key=ci5mI5D1XhSbHZfaueFFTKqMDclZfABq';
-            api = 'http://localhost:4000/home.json';
+            api = 'http://localhost:4000/home.json?api-key=ci5mI5D1XhSbHZfaueFFTKqMDclZfABq';
         }
 
         console.log("fetch home before")

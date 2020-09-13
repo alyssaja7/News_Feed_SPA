@@ -1,5 +1,5 @@
 //https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ci5mI5D1XhSbHZfaueFFTKqMDclZfABq
-//http://localhost:4000/home.json?api-key=ci5mI5D1XhSbHZfaueFFTKqMDclZfABq
+//http://localhost:5000/home.json?api-key=ci5mI5D1XhSbHZfaueFFTKqMDclZfABq
 
 
 
@@ -40,8 +40,8 @@ router.get('/', async (req, res) => {
                 }
             }
         } catch (error) {
-                img = 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Nytimes_hq.jpg';
-                break;
+            img = 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Nytimes_hq.jpg';
+            break;
         }
 
         if(typeof img === "undefined"){
@@ -84,4 +84,3 @@ router.get('/', async (req, res) => {
 
 });
 module.exports = router;
-

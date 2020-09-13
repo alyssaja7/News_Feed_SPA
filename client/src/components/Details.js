@@ -79,7 +79,7 @@ class Details extends Component {
             //http://localhost:5000/article?id=sport/2020/apr/03/englands-cricketers-to-hand-back-500000-and-donate-to-charities?api-key=c05384c5-6def-48bd-8d98-ad6b7c9e9caa&show-blocks=all
 
             //api = 'http://ec2-54-174-22-8.compute-1.amazonaws.com:4000/article?id=' + id + '?api-key=c05384c5-6def-48bd-8d98-ad6b7c9e9caa&show-blocks=all';
-             api = 'http://localhost:4000/article?id=' + id ;
+             api = 'http://localhost:4000/article?id=' + id + '?api-key=c05384c5-6def-48bd-8d98-ad6b7c9e9caa&show-blocks=all';
         }
         console.log(api)
         fetch(api)
