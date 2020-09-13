@@ -1,0 +1,67 @@
+#outter_container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div#inner_container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div#date_line {
+    padding-top: 10px;
+}
+
+
+
+h2 {
+    margin: 0px;
+    color:rgb(66,51,54)
+}
+
+#result_title {
+    font-weight: bold;
+}
+
+p#date {
+    float: left;
+    font-style: italic;
+}
+
+#result_img{
+    border-radius: 0px;
+    padding: 5px;
+
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 0.2px;
+
+}
+div#kw_result_card {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+span#kw_badge {
+    float: right;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    padding: 3px;
+}
+
+
+div#badge_col {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+div#result_card {
+    margin-bottom: 0px;
+}
+
+img.card-img {
+    height: 100%;
+    border-radius: 0px;
+}

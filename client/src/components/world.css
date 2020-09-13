@@ -1,0 +1,51 @@
+.card {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.card:hover{
+    cursor:pointer;
+}
+
+
+.row.row-cols-lg-1 {
+    padding-left: 15px;
+    font-style: italic;
+    /* font-weight: 200; */
+    /* font-weight: bolder; */
+}
+
+#home_title {
+    font-weight: bold;
+}
+
+p#description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+p#date {
+    float: left;
+    font-style: italic;
+}
+
+span.badge{
+    float: right;
+}
+
+#home_img{
+    border-radius: 0px;
+    padding: 5px;
+
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 0.2px;
+
+}

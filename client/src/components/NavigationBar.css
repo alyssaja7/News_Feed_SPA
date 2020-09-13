@@ -1,0 +1,69 @@
+input.mr-sm-2.form-control {
+    width: 280px;
+    height: 38px;
+}
+
+.navbar{
+    background:linear-gradient(to right, rgb(33,48,85), rgb(68,96,171));
+}
+
+
+div#basic-navbar-nav {
+    margin-left: 10px;
+}
+
+
+span.navbar-brand {
+    margin-left: 8px;
+
+}
+
+/*svg {*/
+/*    height: 20px;*/
+/*}*/
+
+.navbar-light .navbar-brand {
+
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(104,121,160);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(192,202,223);
+}
+
+div#bookmark {
+    color: rgb(210,228,248);
+}
+
+div#bookmark_nav {
+    padding-right: 5px;
+}
+
+
+div#bookMark {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(192,202,223);
+}
+
+
+.example {
+    padding-top: 8px;
+}
+

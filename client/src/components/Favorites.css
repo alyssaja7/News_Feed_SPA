@@ -1,0 +1,69 @@
+div#fav_inner_container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#fav_result_card {
+    margin-bottom: 0px;
+}
+div#fav_date_line {
+    padding-top: 10px;
+}
+h2 {
+    margin: 0px;
+    color:rgb(66,51,54)
+}
+
+#fav_result_title {
+    font-weight: bold;
+}
+
+div#fav_result_card {
+
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+
+span#fav_badge {
+    float: right;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+
+    padding: 3px;
+    margin-left: 10px;
+
+    color: rgb(232,238,242);
+
+}
+
+div#favbadge_col {
+
+    padding-top: 3px;
+    padding-left: 0;
+    padding-right: 0px;
+
+}
+
+#fav_result_img{
+    border-radius: 0px;
+    padding: 5px;
+
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 0.2px;
+
+}
+p#fav_date {
+    font-weight: normal;
+    color: rgb(93,92,93);
+    font-size: 16px;
+}
+
+#outter_container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

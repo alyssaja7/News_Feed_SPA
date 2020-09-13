@@ -1,0 +1,12 @@
+.react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.react-switch-bg {
+    background: rgb(63, 149, 240);
+}
+
+#label{
+    margin-bottom: 0px;
+}

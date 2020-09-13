@@ -1,0 +1,98 @@
+.container {
+    max-width: 100%;
+}
+
+.title{
+    font-size: 30px;
+    font-style: italic;
+
+    font-weight: normal;
+}
+
+/*button.react-share__ShareButton {*/
+/*    margin: -6px;*/
+/*}*/
+button#social_button {
+    float: right;
+}
+
+
+p#detail_date {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bookmark {
+    color: rgb(192,74,109);
+}
+
+#desc_hide{
+    font-size: 15px;
+
+    word-spacing: 1.5px;
+    margin-bottom: 35px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+
+}
+
+#desc_show{
+    font-size: 15px;
+
+    word-spacing: 1.5px;
+    margin-bottom: 35px;
+
+}
+
+.comment_box {
+    margin-top: 50px;
+}
+
+img#detail_img {
+    border-radius: 0;
+}
+
+div#faceBook {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+}
+
+
+div#email {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+
+div#twitter{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+/*button#social_button.react-share__ShareButton {*/
+
+/*    padding: 1px;*/
+/*    padding-right: 12px;*/
+/*}*/
+
+.date.col-lg-7.col-6 {
+    padding: 0px;
+}
+
+.social.col-lg-4.col-4 {
+    padding: 0px;
+}

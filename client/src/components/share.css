@@ -1,0 +1,45 @@
+.Demo__some-network {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.Demo__some-network__share-button {
+    cursor: pointer;
+}
+
+div#modal_title {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+div#out_div {
+    width: fit-content;
+    margin: 0 auto;
+}
+div#shareReminder {
+    font-size: 20px;
+
+    text-align: center;
+}
+.modal-footer {
+    padding: 10px;
+}
+
+
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+
+
+div#social_icons {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
